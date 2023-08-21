@@ -21,7 +21,7 @@ function App() {
         <About/>
         <Courses/>
         <Admission/>
-        <Faculty/>
+        <Faculty/> 
         <BuildingBridges/>
         <Activities/>
         <Testimonial/>

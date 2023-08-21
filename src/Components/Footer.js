@@ -1,18 +1,17 @@
 import React from 'react';
+import Logo from './Logo';
 
 const Footer = () => {
     return (
-        <div className='w-[85%] m-auto space-y-4 my-10'>
+        <div className='w-[85%] m-auto space-y-4 my-4'>
             <div className="">
-                <div className="bg-black w-[100%] h-[1px]"></div>
+                <div className="bg-[#D2D2D2] w-[100%] h-[0.2px]"></div>
             </div>
-            <div className="flex items-center justify-between">
+            <div className="sm:flex  items-center justify-between">
                 <div className="">
-                    <a href="#" className="">
-                    <img src="/logo.png" alt="" className="h-[6vh] cursor-pointer" />
-                    </a>
+                    <Logo />
                 </div>
-                <div className="">
+                <div className="xl-text-md text-[12px] px-4 xl:px-0">
                     <p className=""> &copy; Peace House University 2023. All rights reserved.</p>
                 </div>
             </div>
