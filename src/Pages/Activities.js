@@ -39,7 +39,7 @@ const Activities = () => {
                 <img src="leftarrow.png" alt="" className="h-[6vh] cursor-pointer" />
                 <img src="rightarrow.png" alt="" className="h-[6vh] cursor-pointer" />
             </div> */}
-            <div className="text-center">
+            <div className="text-center"> 
             <Swiper
                 ref={swiperRef}
                 spaceBetween={50}
