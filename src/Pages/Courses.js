@@ -38,7 +38,7 @@ const Courses = () => {
             <div className="w-[85%] m-auto xl:py-24 py-12">
                 <div className="leading-tight my-10">
                     <h1 className="uppercase text-sm 2xl:text-md">courses</h1>
-                    <h1 className="font-bold text-xl 2xl:text-3xl">Empowering Courses to<br /> Unleash Your Divine Calling!</h1>
+                    <h1 className="font-medium text-xl 2xl:text-3xl">Empowering Courses to<br /> Unleash Your Divine Calling!</h1>
                 </div>
                 <div className="grid xl:grid-cols-3 md:grid-cols-2 space-y-5 md:space-y-0 gap-[20px]">
                     {cards.map((card) => {
@@ -46,8 +46,8 @@ const Courses = () => {
                             <div className='shadow p-5 w-[384px m-aut text-cente space-y-2 hover:cursor-pointer'>
                                 <img src={card.img} alt="" className="m-auto w-full" />
                                 <div className="space-y-2 leading-relaxed  py-5 m-auto">
-                                    <h2 className="font-bold text-xl">{card.title}</h2>
-                                    <p className="text-sm leading-relaxed text-justify">{card.para}</p>
+                                    <h2 className="font-medium text-xl 2xl:text-2xl">{card.title}</h2>
+                                    <p className="text-sm 2xl:text-lg leading-relaxed text-justif line-clamp-3">{card.para}</p>
                                 </div>
                             </div>
                         )
@@ -55,8 +55,8 @@ const Courses = () => {
                 </div>
             </div>
             <div className="bg">
-                <div className="m-auto w-[80%]">
-                <h2 className="text-center text-lg lg:text-2xl font-semibold text-white md:w-[65%] 2xl:text-4xl leading-relaxed m-auto flex flex-col justify-center py-20"> “Discover how our nurturing environment and commitment to peace and understanding have transformed lives and shaped compassionate leaders”</h2>
+                <div className="m-auto md:w-[80%] w-[85%]">
+                <h1 className="text-center text-lg lg:text-2xl font-medium text-white md:w-[65%] 2xl:text-3xl 2xl:leading-relaxed leading-loose  m-auto flex flex-col justify-center py-20"> “Discover how our nurturing environment and commitment to peace and understanding have transformed lives and shaped compassionate leaders”</h1>
             </div>
             </div>
         </div>

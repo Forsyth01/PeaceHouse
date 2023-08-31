@@ -9,6 +9,7 @@ import BuildingBridges from './Pages/BuildingBridges';
 import Contact from './Pages/Contact';
 import Courses from './Pages/Courses';
 import Faculty from './Pages/Faculty';
+import Header from './Pages/Header';
 import Hero from './Pages/Hero';
 import Testimonial from './Pages/Testimonial';
 
@@ -17,7 +18,8 @@ function App() {
     <div className="App">
       <header className="App-header ">
         <Navbar />
-        <Hero />
+        <Header/>
+        {/* <Hero /> */}
         <About/>
         <Courses/>
         <Admission/>

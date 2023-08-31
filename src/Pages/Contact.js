@@ -5,7 +5,7 @@ const Contact = () => {
         <div id='contact' className='xl:py-24 py-12'>
             <div className="bg-blue py-20 text-white text-center flex flex-col justify-center ">
                 <div className="xl:w-[70%] w-[80%] m-auto">
-                    <h1 className="text-white font-bold text-3xl 2xl:text-5xl my-2">Get In Touch</h1>
+                    <h1 className="text-white font-medium text-3xl 2xl:text-5xl my-2">Get In Touch</h1>
                     <p className="text-sm 2xl:text-xl">Have questions or want to learn more? Reach out to us, and <br className='xl:flex hidden'/> we'll be glad to connect.</p>
                     <div className="pt-10 text-sm 2xl:text-xl">
                       

@@ -5,7 +5,7 @@ import Logo from './Logo';
 const Navbar = () => {
     const [open, setOpen] = useState(false)
     return (
-        <div className={!open ? 'fixed  xl:flex z-10 w-[100%] bg-white' : " bg-white fixed  top-0 md:block w-[100%] z-10 "} id='home'>
+        <div className={!open ? 'absolute  xl:flex z-10 w-[100%] bg-whit' : " bg-white fixed  top-0 md:block w-[100%] z-10 "} id='home'>
             <div className="xl:flex items-center justify-between py-2 w-[90%] m-auto">
                 <div className="flex justify-between items-center ">
                     <div className="hover:cursor-pointer" id='home'>
@@ -23,7 +23,7 @@ const Navbar = () => {
                     <li> <a href="#contact" className="opacity-50 hover:opacity-100 hover:font-bol">Contact Us</a></li>
                 </div>
                 <div className="xl:py-0">
-                    <button className="rounded border border-[#004B4A] hover:bg-[#004B4A] hover:text-white py-2 px-8 hover:scale-105 hidden xl:flex">Register</button>
+                    <button className="rounded-full border border-[#004B4A] bg-[#004B4A] hover:bg-none text-white xl:px-8 xl:py-3 px-4 2xl:px-14 2xl:py-4 py-2  hover:scale-105 hidden xl:flex">Register</button>
                     {open && <button className="rounded border bg-[#004B4A] my-5  py-3 px-10 hover:scale-105 text-center w-full text-white">Register</button>}
                 </div>
             </div>

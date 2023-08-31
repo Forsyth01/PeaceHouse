@@ -23,12 +23,12 @@ const Activities = () => {
         }
     }
     return (
-        <div className='w-[85%] m-auto py-24' >
+        <div className='w-[85%] m-auto md:py-24 py-12' >
             <div className="text-center xl:w-[70%] m-auto">
-                <h1 className="font-bold text-2xl 2xl:text-4xl my-2">
+                <h1 className="font-medium text-2xl 2xl:text-4xl my-2">
                     Students Embrace Diverse Campus Life
                 </h1>
-                <p className="text-sm xl:w-[80%] m-auto leading-6 2xl:text-xl">Explore a vibrant tapestry of campus life at Peace House Foundation University, where students of all backgrounds engage in dynamic activities, from interactive lectures, spirited sports to creative arts, clubs, and community service.</p>
+                <p className="text-sm xl:w-[80%] 2xl:w-[85%] 2xl:leading-relaxed m-auto leading-6 2xl:text-xl">Explore a vibrant tapestry of campus life at Peace House Foundation University, where students of all backgrounds engage in dynamic activities, from interactive lectures, spirited sports to creative arts, clubs, and community service.</p>
             </div>
             {/* <div className="flex gap-10 justify-center mt-10">
                 <img src="basketball.png" alt="" className="xl:h-[60vh] lg:h-[50vh] object-cover" />

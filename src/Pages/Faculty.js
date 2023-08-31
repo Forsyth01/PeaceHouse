@@ -29,7 +29,7 @@ const Faculty = () => {
                 <div className="space-y-3 my-5">
                     <div className="">
                         <h3 className="tracking-wid text-sm 2xl:text-xl">FACULTY</h3>
-                        <h1 className="font-bold text-xl 2xl:text-4xl 2xl:leading-normal">OUR SKILLED FACULTY HELPS STUDENTS <br />IN MANY DICIPLINES<br />Learning</h1>
+                        <h1 className="font-medium text-xl 2xl:text-4xl  lowercase first-letter:uppercase">OUR SKILLED FACULTY HELPS STUDENTS <br />IN MANY DICIPLINES<br />Learning</h1>
                     </div>
                 </div>
             </div>
