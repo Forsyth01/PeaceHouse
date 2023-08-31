@@ -11,7 +11,7 @@ const Hero = () => {
                         <button className="bg-[#004B4A] xl:px-12 xl:py-4 px-4 py-2 rounded-xl hover:scale-105 ">Get Started</button>
                     </a>
                 </div>
-            </div>
+            </div> 
             <div className="">
                 <img src="" alt="" className="transitions lg:h-[600px] 2xl:h-[800px] h-[600px] w-[100%]" />
             </div>
